@@ -1,0 +1,70 @@
+body {
+  height: calc(100% - 65px);
+}
+
+.ui.menu.main-menu {
+  margin-bottom: 0;
+}
+.ui.menu.side-menu {
+  top: 65px;
+  z-index: 1;
+}
+.ui.segment.main-content {
+  margin-top: 65px;
+  margin-left: 210px;
+}
+.ui.segment.main-content.compacted {
+  margin: 0;
+}
+.ui.segment.app-segment {
+  border-radius: 0;
+  margin-top: 0;
+  border-bottom: none;
+  border-left: none;
+}
+.main-menu .item.right button {
+  margin-left: 15px !important;
+}
+
+.rune .content .star-line .star img {
+  width: 11px;
+}
+
+.rune .ui.image.label {
+  padding: 2px 0 0 6px;
+  text-align: center;
+}
+
+.rune .ui.image.label > img {
+  margin: 0 auto;
+  max-width: none;
+}
+
+.rune .ui.image.label span.upgrade {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 2px 2px;
+  bottom: 0;
+  padding: 0 2px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.settings-plugins .icon {
+  font-size: 16px !important;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+#version {
+  bottom: 68px;
+  position: absolute;
+  left: 5px;
+  color: #ffffff;
+}
+
+.ui.label.image.horizontal > .detail {
+  padding-top: .4em;
+  padding-bottom: .4em;
+  margin-top: -.4em;
+}
